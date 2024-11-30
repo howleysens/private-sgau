@@ -59,7 +59,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4107960853800282123}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14c67d836383fd4448a61877cea1ccf4, type: 3}
   m_Name: 
@@ -68,19 +68,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0.013946533
-      inSlope: 0.0002089317
-      outSlope: 0.0002089317
+      time: 0.0000038146973
+      value: 1.0007172
+      inSlope: -0.0030632168
+      outSlope: -0.0030632168
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 4.992567
-      value: 0.014989639
-      inSlope: 0.0002089317
-      outSlope: 0.0002089317
+      time: 1.0062256
+      value: 0.9976349
+      inSlope: -0.0030632168
+      outSlope: -0.0030632168
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -90,14 +90,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   connectedBody: {fileID: 0}
   motorDriver: {fileID: 0}
-  motorAxis: {x: 1, y: 0, z: 0}
-  isResetMotorAnchor: 0
+  motorAxis: {x: 0, y: 0, z: 1}
+  isResetMotorAnchor: 1
   motorAnchor: {x: 0, y: 0, z: 0}
-  connectedAnchor: {x: 0, y: 0, z: 0}
-  brakingFactor: 0.1
+  connectedAnchor: {x: 0, y: 0, z: 1}
+  brakingFactor: 0.05
   outputTorque: 0
-  maxAngularVelocity: 523
-  isDrawAnchors: 0
+  maxAngularVelocity: 16000
+  isDrawAnchors: 1
 --- !u!65 &4168416224479694881
 BoxCollider:
   m_ObjectHideFlags: 0

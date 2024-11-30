@@ -131,12 +131,12 @@ public class RSMAMotor2 : MonoBehaviour
         if (isDrawAnchors)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawRay(transform.TransformPoint(motorAnchor), (transform.right * motorAxis.x + transform.up * motorAxis.y + transform.forward * motorAxis.z) * 0.01f);
-            Gizmos.DrawSphere(transform.TransformPoint(motorAnchor), 0.002f);
+            Gizmos.DrawRay(transform.TransformPoint(motorAnchor), (transform.right * motorAxis.x + transform.up * motorAxis.y + transform.forward * motorAxis.z) * 1f);
+            Gizmos.DrawSphere(transform.TransformPoint(motorAnchor), 0.5f);
 
             Gizmos.color = Color.green;
-            Gizmos.DrawRay(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), (transform.right * motorAxis.x + transform.up * motorAxis.y + transform.forward * motorAxis.z) * 0.01f);
-            Gizmos.DrawSphere(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), 0.002f);
+            Gizmos.DrawRay(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), (transform.right * motorAxis.x + transform.up * motorAxis.y + transform.forward * motorAxis.z) * 1f);
+            Gizmos.DrawSphere(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), 1.5f);
         }
     }
 }
