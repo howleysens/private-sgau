@@ -55,6 +55,7 @@ public class Encoder : RSMADataTransferSlave
         {
             delta += 360;
         }
+        Debug.Log("Encoder Pulses: " + delta);
 
         _measuredAngles += delta;
 

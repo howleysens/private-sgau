@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 8_RGBLED
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: a48cb5313b1970b4f8f023765564f965, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 5173099662979808956, guid: 979e3a70f4bec3148911a58c78c25fc7, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 5664340838184009531, guid: 6469aea70a1aada4ebc5e365eba8b4f2, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 1c929ca78f297154cb86a705a29b73ed, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 8825430740118104141, guid: ed1b43bb4ff220348b05e249f273c5b1, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 54d65fc27b305d2468d04076c88d2d80, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 57286207f4e61b8449a989a9fe7c0df9, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2511df0a500e2384e9c566d85760c20c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: ffadea80098987046963643df58ad69d, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2253473799725442376, guid: 6a58d73ca62b1c74cb5a8ae8fabfefb0, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 48e78410a322cca409092a3e83644d80, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 8df71aec5556306469b10c99a91098cc, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: e792424df3a080643b867cb3970b4f26, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 7744aed8df97e004c9fa6bdfb61a1b5a, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
