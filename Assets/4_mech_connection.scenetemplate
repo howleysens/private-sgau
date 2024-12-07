@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 4_mech_connection
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: d80212288ab76b64296b5a411dfd9900, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2800000, guid: 1c929ca78f297154cb86a705a29b73ed, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2511df0a500e2384e9c566d85760c20c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 57286207f4e61b8449a989a9fe7c0df9, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 6472851813153452910, guid: ef56b36b6d03b6546aa024967d2d24d5, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 462d17bf29f277c4cac90762879e7646, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 660e14133b8393245bc78ea6fe36e9d2, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 8b5378fb62634414e998af1ece20de7a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: bdb4af7bed70c8446b46769a75a84812, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 39d4060c373b51b408e7edcb7e2a8aac, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2828701778949886444, guid: 3c2248430c973464faef913754296f33, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: e792424df3a080643b867cb3970b4f26, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 7744aed8df97e004c9fa6bdfb61a1b5a, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0

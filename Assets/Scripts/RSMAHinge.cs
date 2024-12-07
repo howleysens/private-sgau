@@ -49,15 +49,17 @@ public class RSMAHinge : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
+        float sphereRadius = 0.51f;
         if (isDrawAnchors)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawRay(transform.TransformPoint(anchor), (transform.right * axis.x + transform.up * axis.y + transform.forward * axis.z) * 0.01f);
-            Gizmos.DrawSphere(transform.TransformPoint(anchor), 0.002f);
+            Gizmos.DrawSphere(transform.TransformPoint(anchor), sphereRadius);
 
             Gizmos.color = Color.green;
             Gizmos.DrawRay(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), (transform.right * axis.x + transform.up * axis.y + transform.forward * axis.z) * 0.01f);
-            Gizmos.DrawSphere(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), 0.002f);
+            Gizmos.DrawSphere(connectedBody.gameObject.transform.TransformPoint(connectedAnchor), sphereRadius);
+    
         }
     }
 }

@@ -46,7 +46,7 @@ public class RSMAMechanicalPart : MonoBehaviour
         if (isDrawCenterOfMass)
         {
             Gizmos.color = Color.yellow;
-            Gizmos.DrawSphere(transform.TransformPoint(centerOfMassPosition), 0.002f);
+            Gizmos.DrawSphere(transform.TransformPoint(centerOfMassPosition), 1.5f);
         }
     }
 }

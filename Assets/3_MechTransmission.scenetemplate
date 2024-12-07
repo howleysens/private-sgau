@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 3_MechTransmission
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 91eafebabb90ae7478c5aa78ab5d7868, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 919132149155446097, guid: 534206774fcf9024fb093bb48b1372a2, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 8dfdcc7f9f82e6941a261f3898e69879, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 64a2c012b336c0944aa795ab50f5f509, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 6d575466040d1ec4eb431d7d1121e6df, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: bdb4af7bed70c8446b46769a75a84812, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
